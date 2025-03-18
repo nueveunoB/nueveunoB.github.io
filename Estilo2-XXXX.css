@@ -2,12 +2,12 @@
 /* esto es un comentario */
 
 body.ImgFondo2 {
-  background-image: url("/Ajustar.jpg");
+  background-image: url("Ajustar.jpg");
 	background-size: cover;
 }
 
 body.ImgFondo3 {
-  background-image: url("/Chicos-L3.png");
+  background-image: url("Chicos-L3.png");
 	background-position: center;
   background-repeat: no-repeat;
 	background-color: khaki;
