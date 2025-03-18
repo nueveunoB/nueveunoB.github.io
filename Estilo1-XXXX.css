@@ -11,13 +11,13 @@ body.Color2 {
 
 body.ImgFondo1 {
   background-color: PaleGoldenrod;
-	background-image: url("../Imagenes/Clase3.jpg");
+	background-image: url("Clase3.jpg");
   background-position: center;
   background-repeat: no-repeat; 
 }
 
 body.ImgFondo2 {
-  background-image: url("../Imagenes/Ajustar.jpg");
+  background-image: url("Ajustar.jpg");
 	background-size: cover;
 }
 
@@ -72,7 +72,7 @@ h3.H3-1
 {
 	/* Estilo definido para los tags h3 con punto (.) */
 	/* se aplica usando "class" en el tag h3, */
-	/* si se usa en otros tags no funcionar· */
+	/* si se usa en otros tags no funcionar√° */
 	letter-spacing:10px; 
 	text-align:left; 
 	font-family:Comic Sans MS; 
@@ -85,7 +85,7 @@ h3#H3-2
 {
 	/* Estilo definido para los tags h3 con # */
 	/* se aplica usando id en el tag h3, */
-	/* si se usa en otros tags no funcionar· */
+	/* si se usa en otros tags no funcionar√° */
 	letter-spacing:4px; 
 	text-align:right; 
 	font-family:Courrier New; 
