@@ -2,12 +2,12 @@
 /* esto es un comentario */
 
 body.ImgFondo2 {
-  background-image: url("../Imagenes/Ajustar.jpg");
+  background-image: url("/Ajustar.jpg");
 	background-size: cover;
 }
 
 body.ImgFondo3 {
-  background-image: url("../Imagenes/Chicos-L3.png");
+  background-image: url("/Chicos-L3.png");
 	background-position: center;
   background-repeat: no-repeat;
 	background-color: khaki;
@@ -18,7 +18,7 @@ marquee {
 	background-color: black;
 	color: Cyan;
 	border: 5px solid Blue;
-	background-image: url(../Imagenes/GIF-Animado1.gif);
+	background-image: url(GIF-Animado1.gif);
 	background-position: center;
   background-repeat: no-repeat; 
 }
