@@ -1,0 +1,100 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Página 12 de XXXX</title>
+	<!-- Definición de estilos en el archivo .css-->
+	<link rel="stylesheet" type="text/css" href="../Estilos/Estilo1-XXXX.css">
+	
+	 <script language="JavaScript">
+    <!--  
+    ///   desplaza un texto en una ventana
+    var texto="(09) Titulo a la izquierda "
+     + " dentro de una VENTANA                                     " ;
+
+    function desplazaTxt()
+    {
+      document.frm.objEnt.value = texto;
+      texto = texto.substring(1, texto.length) + texto.charAt(0);
+      window.setTimeout("desplazaTxt()",100);
+    }
+    //-->
+  </script>
+</head>
+
+<body class="Color2" onLoad="desplazaTxt();">
+	<br><br>
+	Página 12 de Tu Nombre COMPLETO comenzando por APELLIDOS
+	<hr width=50% align=left size=8 noshade>
+	
+	<h1>MARQUESINAS</h1>
+	<marquee hspace="20%" width="60%">(01a) Texto a la IZQUIERDA (default)</marquee>
+  <br><br>
+  <marquee direction="left" style="background:#CC3333">
+	  (01b) Texto a la IZQUIERDA</marquee>
+  <br><br>
+  <marquee style="border:#FF4500 5px SOLID">
+	  (01c) Texto a la IZQUIERDA</marquee>
+  <br><br>
+
+  <marquee direction="right">(02) Texto a la DERECHA</marquee>
+  <br><br>
+
+	<marquee direction="up">(03) Texto hacia ARRIBA</marquee>
+	<br><br>
+
+  <marquee direction="down";>(04) Texto hacia ABAJO</marquee>
+  <br><br>
+
+  <marquee scrolldelay="80-50-13">
+	  (05) Texto con VELOCIDAD DE DESPLAZAMIENTO</marquee>
+  <br><br>
+
+  <marquee behavior="alternate">(06a) Texto DE UN LADO A OTRO</marquee>
+    <br><br>
+  <marquee behavior="alternate" bgcolor="00FF00">
+	  <h2>(06b) Texto DE UN LADO A OTRO</h2></marquee>
+  <br><br>
+
+  <MARQUEE DIRECTION="UP" scrolldelay="1" scrollamount="1" width="100%" 
+	  style="text-align:justify; height:100px;
+		filter:wave(add="5", phase="10", freq="5", strength="100" ;">
+		<center><font color="Blue" size="28">
+		(07) Texto para CREDITOS______
+		<br>Credito 1
+		<br>Credito 2
+		<br>Credito ...
+	</marquee>
+  <br><br>
+
+  <span style="background: url(http://img.photobucket.com/albums/v226/w8ks8rchick/block10.gif);
+	      font-size: 32;"> 
+		<b>(08a) ___________Texto (imagen de la web)___________</b> 
+	</span>
+  <br><br>
+	
+  <span style="background: url(../Imagenes/ladrillos.gif); font-size: 32;"> 
+	  <i>(08b) ___________Texto (imagen local gif animado)___________</i> 
+	</span>
+  <br><br>
+	
+  <span style="background: url(../imagenes/GIF-Animado1.gif); font-size: 32; color: Blue;"> 
+		<b>(08c) ___________Texto (imagen local gif animado)___________</b> 
+	</span>
+  <br><br>
+	
+  <div align="center"> <!--para texto 09-->
+    <form name='frm'>
+      <INPUT type='text' name='objEnt' size=64> 
+    </form>
+  </div>
+  <br><br>
+
+  <br><br><br><br><br><br><br><br><br><br>
+	
+</body>
+</html>
+
+<!--
+  http://solamentecodigoshtmlbybcn.jimdo.com/textos-en-movimiento/
+
+-->
