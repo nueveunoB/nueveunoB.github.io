@@ -1,0 +1,110 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Página 8 de XXXX</title>
+	<!-- Definición de estilos en el archivo .css-->
+	<link rel="stylesheet" type="text/css" href="Estilo1-XXXX.css">
+</head>
+<body class="Color2">
+	<br><br>
+	Página 8 de Tu Nombre COMPLETO comenzando por APELLIDOS
+	<hr width=50% align=left size=8 noshade>
+	
+	<h1>TABLAS</h1>
+	<h2>Tag table (tabla simple)</h2>
+	<table border="1">
+		<caption align="top">Título o Leyenda de la Tabla</caption>
+		<tr>
+			<th width="200">Nombres (th)</th>
+			<th width="100">Edad (th)</th>
+		</tr>
+		<tr>
+			<td align="center">María (td)</td>
+			<td align="center">15 (td)</td>
+		</tr>
+		<tr>
+			<td align="center">Juan (td)</td>
+			<td align="center">13 (td)</td>
+		</tr>
+	</table>
+	<br><br>
+	
+	<h2>Tag table (con borde grueso y renglones y columnas combinados)</h2>
+	<table border="5">
+		<caption align="top"><b>Título o Leyenda de la Tabla</b></caption>
+		<tr>
+			<th width="200" colspan="2">Nombres</th>
+			<th width="100">Edad</th>
+		</tr>
+		<tr>
+			<td>María</td>
+			<td>Rojas</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>Juan</td>
+			<td>Rios</td>
+			<td rowspan="2">13</td>
+		</tr>
+		<tr>
+			<td>Pedro</td>
+			<td>Mares</td>
+		</tr>
+	</table>
+	<br><br>
+	
+	<h2>Tag table (con dimensiones absolutas y en porcentaje y centrada)</h2>
+	<table border="10" width="80%" height="100" align="center">
+		<caption align="top"><b>Título o Leyenda de la Tabla</b></caption>
+		<tr>	
+			<th colspan="4" height="50">Promedio</th>
+		</tr>
+		<tr>
+			<td colspan="2"></td> 
+			<th>Altura</th> 
+			<th>Peso</th>
+		</tr>
+		<tr>	
+			<th rowspan="2" width="20%">Género</th>
+			<th width="20%">Hombres</th> 
+			<td width="20%">1.9</td>	    
+			<td width="20%">0.003</td>
+		</tr>
+		<tr> 
+			<th>Mujeres</th> 
+			<td>1.7</td> 
+			<td>0.002</td>
+		</tr>
+	</table>
+	<br><br>
+	
+	<h2>Tag table (tablas Anidadas, alineada a la derecha y centrada)</h2>
+	<table border="10" width="600" align="right">
+		<caption align="top"><b>Tabla Externa</b></caption>
+		<tr> <!-- renglón 1 de tabla Externa -->
+			<th width="100">Dato 1</th>
+			<th width="100">Dato 2</th>
+			<th width="100">Tabla</th>
+		</tr>
+		<tr> <!-- renglón 2 de tabla Externa -->
+			<td align="center">4</td>
+			<td align="center">5</td>
+			<td>
+         <table border="5" width="300" align="center">
+            <caption align="top"><b>Tabla Interna o Anidada</b></caption>
+						<tr> <!-- renglón 1 de tabla interna o anidada-->
+               <th>A</th>
+               <th>B</th>
+            </tr>
+            <tr> <!-- renglón 2 de tabla interna o anidada -->
+               <td align="center">C</td>
+               <td align="center">D</td>
+            </tr>
+         </table>
+			</td>
+		</tr>
+	</table>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	
+</body>
+</html>

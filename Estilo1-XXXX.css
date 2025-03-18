@@ -1,0 +1,154 @@
+/*@charset "utf-8";*/
+/* esto es un comentario */
+
+body.Color1 {
+  background-color: Khaki;
+}
+
+body.Color2 {
+	background-color: LightBlue;
+}
+
+body.ImgFondo1 {
+  background-color: PaleGoldenrod;
+	background-image: url("Clase3.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+body.ImgFondo2 {
+  background-image: url("Ajustar.jpg");
+	background-size: cover;
+}
+
+div.Div1 {
+	float:left;
+	border: 10px solid Blue; 
+	background-color: Khaki;
+	/*background-image: linear-gradient(red, yellow, green);*/
+	/*background-image: repeating-linear-gradient(red, yellow 10%, green 20%);*/
+	/*background-image: radial-gradient(red, green);
+	background-image: radial-gradient(red, yellow, green);
+	background-image: repeating-radial-gradient(red, yellow 10%, green 20%);*/
+	width: 50%;
+	height: 290px;
+	text-align: center;
+	color: Blue;
+	font-size: 14;
+	font-family: Verdana;
+	font-style: Italic;
+}
+
+div.Div2 {
+	float:right;
+	border: 10px solid Red; 
+	background-color: Khaki;
+	width: 350px;
+	height: 290px;
+	text-align: center;
+	color: Blue;
+	font-size: 16;
+}
+
+div.Div3 {
+	position: absolute;
+	top: 500px;
+	left: 50px; 
+	width:400px; 
+	height:200px;
+	overflow:scroll;
+	border: 10px solid Khaki; 
+	background-color: Ivory;
+	text-align: left;
+	color: Peru;
+	font-size: 16;
+}
+
+div.Div4 {
+	width:500px; 
+}
+
+h3.H3-1
+{
+	/* Estilo definido para los tags h3 con punto (.) */
+	/* se aplica usando "class" en el tag h3, */
+	/* si se usa en otros tags no funcionará */
+	letter-spacing:10px; 
+	text-align:left; 
+	font-family:Comic Sans MS; 
+	font-size:20px; 
+	color: Teal; 
+	border: 2px dashed Peru;
+}
+
+h3#H3-2
+{
+	/* Estilo definido para los tags h3 con # */
+	/* se aplica usando id en el tag h3, */
+	/* si se usa en otros tags no funcionará */
+	letter-spacing:4px; 
+	text-align:right; 
+	font-family:Courrier New; 
+	font-size:16px; 
+	color: #B8860B; 
+	border: 2px solid RGB(165, 42, 42);
+}
+
+.Green
+{
+	/* Estilo generico se define con punto */
+	/* y se aplica usando class en */
+	/* el tag al que se quiere aplicar */
+	text-decoration:overline; 
+	letter-spacing:5px; 
+	text-align:center; 
+	font-family:Verdana; 
+	font-size:18px; 
+	color: Green; 
+	border: 1px dotted Black; 
+}
+
+#Olive
+{
+	/* Estilo generico se define con #
+	/* y se aplica usando id en */
+	/* el tag al que se quiere aplicar */
+	text-decoration:underline; 
+	letter-spacing:2px; 
+	text-align:right; 
+	font-size:16px; 
+	font-family:cursive;
+	color: Olive; 
+	border: 2px solid Blue; 
+}
+
+h5,h6
+{
+	/* Estilo definido para TODOS los tags h5 y h6 */ 
+	/* excepto a los que se les defina un estilo especifico */
+	letter-spacing:3px; 
+	font-style:Italic;
+	font-size:20px; 
+	color: Blue;
+}
+
+
+marquee {
+	height: 50px;
+}
+
+span.Altu {
+	height: 200px;
+}
+
+
+
+
+/*----------------------------------------------------*/
+
+
+/*
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://carontestudio.com/blog/como-poner-una-imagen-de-fondo-en-html/
+
+*/
